@@ -1,8 +1,8 @@
 {
-  "name": "stuible-portfolio",
+  "name": "iat-339-portfolio",
   "version": "1.0.0",
-  "description": "My personal portfolio website",
-  "author": "Josh Stuible",
+  "description": "Project 3: 'Portfolio' for IAT 339 at SFU, Spring 2019",
+  "author": "Macguire Rintoul",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -13,12 +13,11 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "@dinamomx/nuxtent": "^3.0.1",
-    "@nuxtjs/axios": "^5.4.1",
     "cross-env": "^5.2.0",
     "nuxt": "^2.4.0"
   },
   "devDependencies": {
+    "@dinamomx/nuxtent": "^3.0.1",
     "@nuxt/common": "^2.3.4",
     "@nuxtjs/eslint-config": "^0.0.1",
     "babel-eslint": "^8.2.1",
