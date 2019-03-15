@@ -2,6 +2,7 @@
 ** Nuxtent configuration
 */
 
+/*
 module.exports = {
   content: [
       ["projects", {
@@ -15,3 +16,5 @@ module.exports = {
       }]
     ]
 }
+
+*/
