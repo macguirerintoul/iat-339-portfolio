@@ -1,4 +1,5 @@
 const pkg = require('./package')
+const dynamicRoutes  = getDynamicPaths({ '/': 'blog/posts/*.json' });
 
 module.exports = {
   mode: 'universal',
@@ -37,9 +38,8 @@ module.exports = {
   */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios',
-    '@nuxtjs/pwa',
-    "nuxt-netlify-cms",
+    'nuxt-netlify-cms',
+    'nuxtent',
   ],
 
   /*
@@ -47,10 +47,6 @@ module.exports = {
   */
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
-  },
-
-  generate: {
-    routes: dynamicRoutes
   },
 
   /*

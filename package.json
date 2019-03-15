@@ -38,6 +38,7 @@
     "netlify-cms": "^2.6.1",
     "nodemon": "^1.18.9",
     "nuxt-netlify-cms": "^4.0.0",
+    "nuxtent": "^1.4.1",
     "prettier": "1.14.3"
   }
 }
