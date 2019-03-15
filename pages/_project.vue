@@ -10,9 +10,8 @@
 <script>
 export default {
   async asyncData({ app, route }) {
-    const post = await app.$content('projects').get(route.path)
     return {
-      post: post,
+      project: await app.$content('projects').get(route.path)
     }
   }
 }

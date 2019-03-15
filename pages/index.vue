@@ -9,25 +9,13 @@
         Portfolio (project 3) for IAT 339 at SFU, Spring 2019
       </h2>
       <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >GitHub</a>
-      </div>
-    </div>
-    <div class="links">
         <ul>
-          <li v-for="project in projects" v-bind:key="project.title">
+          <li v-for="project in projects">
             <nuxt-link :to="project.permalink">{{ project.title }}</nuxt-link>
           </li>
         </ul>
-</div>
+      </div>
+    </div>
   </section>
 </template>
 
@@ -38,11 +26,11 @@ export default {
   components: {
     Logo
   },
-  async asyncData({ app }) {
+  async asyncData({app}) {
     return {
       projects: await app.$content('projects').getAll()
     }
-  },
+  }
 }
 </script>
 
