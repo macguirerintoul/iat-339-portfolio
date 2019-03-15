@@ -21,17 +21,13 @@
         >GitHub</a>
       </div>
     </div>
-    <script>
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on("init", user => {
-        if (!user) {
-          window.netlifyIdentity.on("login", () => {
-            document.location.href = "/admin/";
-          });
-        }
-      });
-    }
-  </script>
+    <div class="links">
+        <ul>
+          <li v-for="project in projects" v-bind:key="project.title">
+            <nuxt-link :to="project.permalink">{{ project.title }}</nuxt-link>
+          </li>
+        </ul>
+</div>
   </section>
 </template>
 
@@ -41,7 +37,12 @@ import Logo from '~/components/Logo.vue'
 export default {
   components: {
     Logo
-  }
+  },
+  async asyncData({ app }) {
+    return {
+      projects: await app.$content('projects').getAll()
+    }
+  },
 }
 </script>
 
