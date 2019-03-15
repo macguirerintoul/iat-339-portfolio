@@ -37,8 +37,10 @@ module.exports = {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    "nuxt-netlify-cms",
   ],
+
   /*
   ** Axios module configuration
   */
