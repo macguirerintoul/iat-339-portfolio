@@ -36,7 +36,7 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
-    // 'nuxtent',
+    'nuxtent',
     'nuxt-netlify-cms',
   ],
 
