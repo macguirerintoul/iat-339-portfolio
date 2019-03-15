@@ -48,6 +48,7 @@ module.exports = {
       ["projects", {
         page: '_project',
         permalink: ':slug',
+        isPost: false,
         generate: [
           // assets to generate static build
           'get',
