@@ -1,5 +1,4 @@
 const pkg = require('./package')
-const dynamicRoutes  = getDynamicPaths({ '/': 'blog/posts/*.json' });
 
 module.exports = {
   mode: 'universal',
