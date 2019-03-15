@@ -1,6 +1,6 @@
 backend:
   name: github
-  branch: master
+  repo: mrintoul/iat-339-portfolio
 collections:
   - name: "projects" # Used in routes, e.g., /admin/collections/blog
     label: "Projects" # Used in the UI
