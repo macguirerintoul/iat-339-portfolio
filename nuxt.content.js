@@ -4,9 +4,9 @@
 
 module.exports = {
   content: [
-      ["_projects", {
-        page: '/_title',
-        permalink: ":title",
+      ["projects", {
+        page: '/_slug',
+        permalink: ":slug",
         isPost: false,
         generate: [
           'get',
