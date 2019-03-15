@@ -7,7 +7,11 @@ module.exports = {
       ["_projects", {
         page: '/_title',
         permalink: ":title",
-        isPost: false
+        isPost: false,
+        generate: [
+          'get',
+          'getAll'
+        ]
       }]
     ]
 }
