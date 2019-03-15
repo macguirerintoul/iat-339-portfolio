@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Vancity MyCredit
-date: '2019-03-15T06:30:15.884Z'
+date: '2019-03-09 12:23am'
 thumbnail: /static/uploads/customer-journey-416655c2626c507de7e0db359650b567.png
 ---
 # Vancity MyCredit
