@@ -17,6 +17,7 @@
     "nuxt": "^2.4.0"
   },
   "devDependencies": {
+    "@nuxtjs/axios": "^5.4.1",
     "@dinamomx/nuxtent": "^3.0.1",
     "@nuxt/common": "^2.3.4",
     "@nuxtjs/eslint-config": "^0.0.1",

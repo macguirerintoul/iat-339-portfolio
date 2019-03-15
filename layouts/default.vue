@@ -22,7 +22,7 @@
   display: flex;
 }
 #sidebar {
-  width: 10em;
+  width: 15em;
 }
 
 #content {

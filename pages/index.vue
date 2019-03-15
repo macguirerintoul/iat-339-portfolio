@@ -1,19 +1,13 @@
 <template>
-  <section class="container">
+  <section>
     <div>
-      <logo />
-      <h1 class="title">
-        iat-339-portfolio
-      </h1>
-      <h2 class="subtitle">
-        Portfolio (project 3) for IAT 339 at SFU, Spring 2019
-      </h2>
-      <div class="links">
-        <ul>
-          <li v-for="project in projects">
-            <nuxt-link :to="project.permalink">{{ project.title }}</nuxt-link>
-          </li>
-        </ul>
+      <h1>Macguire Rintoul</h1>
+      <h2>Experience designer & developer</h2>
+      <div class="projects">
+        <div v-for="project in projects">
+          <img :src="project.thumbnail" :alt="project.title">
+          <nuxt-link :to="project.permalink">{{ project.title }}</nuxt-link>
+        </div>
       </div>
     </div>
   </section>
