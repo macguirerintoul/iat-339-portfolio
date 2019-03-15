@@ -1,7 +1,10 @@
 backend:
   name: github
   repo: mrintoul/iat-339-portfolio
-  
+
+media_folder: "static/images"
+public_folder: "/images"
+
 collections:
   - name: "projects" # Used in routes, e.g., /admin/collections/blog
     label: "Projects" # Used in the UI
