@@ -36,10 +36,34 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
-    // Doc: https://axios.nuxtjs.org/usage
+    '@dinamomx/nuxtent',
     'nuxt-netlify-cms',
-    // 'nuxtent',
   ],
+
+  /*
+  ** Nuxtent configuration
+  */
+  nuxtent: {
+    content: [
+      ["projects", {
+        page: '_project',
+        permalink: ':slug',
+        generate: [
+          // assets to generate static build
+          'get',
+          'getAll'
+        ]
+      }]
+    ]
+  },
+
+  /*
+  ** Netlify CMS configuration
+  */
+  netlifyCms: {
+    adminPath: 'admin',
+    adminTitle: "Macguire's Portfolio"
+  },
 
   /*
   ** Axios module configuration
