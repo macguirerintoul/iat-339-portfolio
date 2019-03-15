@@ -38,6 +38,7 @@ module.exports = {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     'nuxt-netlify-cms',
+    'nuxtent',
   ],
 
   /*
