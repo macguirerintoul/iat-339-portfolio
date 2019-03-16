@@ -2,10 +2,10 @@
   <section>
     <h1>Work</h1>
     <div id="projects">
-      <div class="project" v-for="project in projects">
+      <nuxt-link v-for="project in projects" v-bind:key="project.title" class="project" :to="project.permalink">
         <img :src="project.thumbnail" :alt="project.title">
-        <nuxt-link :to="project.permalink">{{ project.title }}</nuxt-link>
-      </div>
+        <h3>{{ project.title }}</h3>
+      </nuxt-link>
     </div>
   </section>
 </template>
@@ -33,5 +33,9 @@ export default {
 .project img {
   display: block;
   max-width: 100%;
+}
+
+.project nuxt-link {
+
 }
 </style>
