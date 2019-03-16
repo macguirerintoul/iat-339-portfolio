@@ -20,23 +20,15 @@
 }
 
 html {
-  height: 100%;
+  min-height: 100%;
   background-color: #FFDEE9;
   background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
 }
 
 body {
+  height: 100%;
   margin: 0;
   padding: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-top: 0;
 }
 
 h1 {

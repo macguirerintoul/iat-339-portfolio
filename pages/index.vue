@@ -29,4 +29,9 @@ export default {
 #projects .project {
   flex-basis: 50%;
 }
+
+.project img {
+  display: block;
+  max-width: 100%;
+}
 </style>
