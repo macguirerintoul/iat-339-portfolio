@@ -57,6 +57,7 @@ h1 {
 
 #content {
   width: 100%;
+  padding: 0 8em;
 }
 
 nav {

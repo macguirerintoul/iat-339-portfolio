@@ -1,9 +1,7 @@
 <template>
   <div>
     <h1>{{ project.title }}</h1>
-    <img :src="project.thumbnail" alt="">
     <div v-html="project.body" />
-    <!-- {{post}} -->
   </div>
 </template>
 
