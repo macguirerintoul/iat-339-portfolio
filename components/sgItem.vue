@@ -4,19 +4,30 @@
     <code>{{selector}}</code>
 
     <h3>Sample Code</h3>
-    <code></code>
+    <code>
+      {{sampleCode}}
+    </code>
 
     <h3>Rendered Element</h3>
-    <slot />
+    <div ref="template">
+      <slot />
+    </div>
   </div>
 </template>
 
 <script>
 export default {
   props: {
-    selector: String,
-    sampleCode: String
+    selector: String
   },
+  data: function() {
+    return {
+      sampleCode: ''
+    }
+  },
+  mounted: function() {
+    this.$data.sampleCode = this.$refs.template.innerHTML;
+  }
 }
 </script>
 
