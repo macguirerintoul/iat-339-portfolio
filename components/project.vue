@@ -1,6 +1,6 @@
 <template>
   <nuxt-link v-bind:key="project.title" class="project" :to="project.permalink">
-    <img :src="project.thumbnail" :alt="project.title">
+    <div class="project-image" v-bind:style="{backgroundImage: 'url(' + project.thumbnail + ')'}"></div>
     <h3>{{ project.title }}</h3>
   </nuxt-link>
 </template>
@@ -9,10 +9,13 @@
 export default {
   props: {
     project: Object
-  },
+  }
 }
 </script>
 
 <style>
-
+.project-image {
+  height: 20em;
+  background-size: cover;
+}
 </style>
