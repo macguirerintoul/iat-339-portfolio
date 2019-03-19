@@ -4,10 +4,10 @@
     <code>{{selector}}</code>
 
     <h3>Sample Code</h3>
-    <code>{{sampleCode}}</code>
+    <code></code>
 
     <h3>Rendered Element</h3>
-    {{sampleCode}}
+    <slot />
   </div>
 </template>
 
