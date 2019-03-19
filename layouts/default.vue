@@ -1,7 +1,7 @@
 <template>
   <div id="container">
     <div id="sidebar">
-      <h2><nuxt-link to="/">Macguire Rintoul</nuxt-link></h2>
+      <h2 id="name"><nuxt-link to="/">Macguire Rintoul</nuxt-link></h2>
       <h4>Experience designer & developer</h4>
       <nav>
         <nuxt-link to="/">Work</nuxt-link>
@@ -18,7 +18,7 @@
   </div>
 </template>
 
-<style>
+<style lang="scss">
 * {
   box-sizing: border-box;
 }
@@ -38,6 +38,7 @@ body {
 h1 {
   font-size: 3em;
   letter-spacing: 2px;
+  margin-top: 0;
 }
 
 #container {
@@ -46,8 +47,12 @@ h1 {
 }
 
 #sidebar {
-  width: 15em;
+  min-width: 15em;
+  max-width: 15em;
   padding-right: 5em;
+  #name {
+    margin-top: 0;
+  }
 }
 
 #content {

@@ -17,9 +17,9 @@
     "nuxt": "^2.4.0"
   },
   "devDependencies": {
-    "@nuxtjs/axios": "^5.4.1",
     "@dinamomx/nuxtent": "^3.0.1",
     "@nuxt/common": "^2.3.4",
+    "@nuxtjs/axios": "^5.4.1",
     "@nuxtjs/eslint-config": "^0.0.1",
     "babel-eslint": "^8.2.1",
     "eslint": "^5.0.1",
@@ -33,7 +33,9 @@
     "eslint-plugin-standard": ">=4.0.0",
     "eslint-plugin-vue": "^5.0.0",
     "netlify-cms": "^2.6.1",
+    "node-sass": "^4.11.0",
     "nodemon": "^1.18.9",
-    "nuxt-netlify-cms": "^4.0.0"
+    "nuxt-netlify-cms": "^4.0.0",
+    "sass-loader": "^7.1.0"
   }
 }

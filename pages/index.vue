@@ -20,22 +20,16 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 #projects {
   display: flex;
   flex-wrap: wrap;
-}
-
-#projects .project {
-  flex-basis: 50%;
-}
-
-.project img {
-  display: block;
-  max-width: 100%;
-}
-
-.project nuxt-link {
-
+  .project {
+    flex-basis: 50%;
+    img {
+      display: block;
+      max-width: 100%;
+    }
+  }
 }
 </style>
