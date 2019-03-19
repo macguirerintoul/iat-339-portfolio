@@ -6,7 +6,11 @@
       <nav>
         <nuxt-link to="/">Work</nuxt-link>
         <nuxt-link to="/guide">Guide</nuxt-link>
+        <nuxt-link to="/about">About</nuxt-link>
       </nav>
+
+      <p>mrintoul@sfu.ca</p>
+      <p>&copy; 2019 Macguire Rintoul</p>
     </div>
     <div id="content">
       <nuxt/>
