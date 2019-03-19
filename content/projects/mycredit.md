@@ -6,6 +6,8 @@ thumbnail: /images/thumbnail-mycredit-50b3bb2ddb4621383812dd9a850ffd1d.jpg
 ---
 A mobile app for Vancity members to understand and build credit, in order to better support their financial well-being. The four-week project is a hypothetical product for Vancity, and is not affiliated with the brand.
 
+<iframe title="MyCredit Introduction Video" src="https://player.vimeo.com/video/305425536?byline=0&amp;portrait=0" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="" frameborder="0"></iframe>
+
 ## My Contribution
 
 As the project manager, I ensured that the project's individual parts were being completed and were cohesive, and decided when to stop iterating and start polishing. As the content strategist, I wrote copy that was consistent with our three design principles: personal, clear, and hopeful. I also ensured that the credit-related content in MyCredit was beneficial and easy to understand, which I validated by conducting interviews and think-aloud testing with 9 participants.
