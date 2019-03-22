@@ -19,26 +19,75 @@
 </template>
 
 <style lang="scss">
+$text: #000;
+
+@font-face {
+    font-family: 'Masqualero';
+    src: local('Masqualero Black'), local('Masqualero-Black'),
+        url('/fonts/Masqualero-Black.woff2') format('woff2'),
+        url('/fonts/Masqualero-Black.woff') format('woff'),
+        url('/fonts/Masqualero-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Masqualero';
+    src: local('Masqualero Bold'), local('Masqualero-Bold'),
+        url('/fonts/Masqualero-Bold.woff2') format('woff2'),
+        url('/fonts/Masqualero-Bold.woff') format('woff'),
+        url('/fonts/Masqualero-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
 * {
   box-sizing: border-box;
 }
 
 html {
   min-height: 100%;
-  background-color: #FFDEE9;
-  background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+  background-color: #FFF;
+  font-family: 'Spectral', sans-serif;
+  font-size: 1.3em;
+  color: $text;
 }
 
 body {
   height: 100%;
   margin: 0;
   padding: 0;
+  p {
+    letter-spacing: 0.01em;
+  }
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Masqualero', serif;
 }
 
 h1 {
   font-size: 3em;
-  letter-spacing: 2px;
   margin-top: 0;
+}
+
+h2 {
+  margin-top: 2em;
+}
+
+a {
+  color: $text;
+  text-decoration: none;
+}
+
+blockquote {
+  border-left: 2px solid $text;
 }
 
 #container {
@@ -47,6 +96,7 @@ h1 {
 }
 
 #sidebar {
+  position: fixed;
   min-width: 15em;
   max-width: 15em;
   padding-right: 5em;
@@ -57,7 +107,8 @@ h1 {
 
 #content {
   width: 100%;
-  padding: 0 8em;
+  margin-left: 15em;
+  padding: 0 4em;
 }
 
 nav {

@@ -8,7 +8,10 @@
 <script>
 export default {
   props: {
-    project: Object
+    project: {
+      type: Object,
+      default: {title: '', thumbnail: '', permalink: ''}
+    }
   }
 }
 </script>

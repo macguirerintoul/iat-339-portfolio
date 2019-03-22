@@ -5,29 +5,28 @@
 
     <h3>Sample Code</h3>
     <code>
-      {{sampleCode}}
+  
     </code>
 
     <h3>Rendered Element</h3>
-    <div ref="template">
-      <slot />
-    </div>
+    <div v-html="code"></div>
+    <component :is="component" v-bind="options"></component>
   </div>
 </template>
 
 <script>
+import project from "~/components/project.vue";
+
 export default {
+  components: {
+    project
+  },
   props: {
-    selector: String
+    selector: String,
+    code: String,
+    component: String,
+    options: Object
   },
-  data: function() {
-    return {
-      sampleCode: ''
-    }
-  },
-  mounted: function() {
-    this.$data.sampleCode = this.$refs.template.innerHTML;
-  }
 }
 </script>
 
