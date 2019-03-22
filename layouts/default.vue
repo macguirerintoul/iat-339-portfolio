@@ -87,6 +87,8 @@ a {
 }
 
 blockquote {
+  margin: 0;
+  padding-left: 2em;
   border-left: 2px solid $text;
 }
 
