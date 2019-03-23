@@ -2,7 +2,7 @@
   <section>
     <h1>Work</h1>
     <div id="projects">
-      <project v-for="project in projects" :project="project" />
+      <project v-for="project in projects" :key="project.title" :project="project" />
     </div>
   </section>
 </template>
