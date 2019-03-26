@@ -20,7 +20,10 @@ $text: #000;
 
 html {
   min-height: 100%;
-  background-color: #FFF;
+  background-color: #ffffff;
+background-image: linear-gradient(62deg, #ffffff 0%, #f0e2ff 100%);
+
+  background-size: cover;
   font-family: 'Spectral', sans-serif;
   font-size: 1.3em;
   color: $text;
@@ -55,8 +58,36 @@ h2 {
 }
 
 a {
+  display: inline-block;
   color: $text;
   text-decoration: none;
+  position: relative;
+
+
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 2px;
+    margin-bottom: -2px;
+    cursor: pointer;
+
+&::before {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to top right, #13f3b9, #5878F3);
+    transition: transform .3s ease-in-out;
+    transform: translateX(-101%);
+}
+
+&:hover::before {
+    transform: translateX(0);
+}
+
+
 }
 
 blockquote {
@@ -88,15 +119,22 @@ blockquote {
 }
 
 @media all and (max-width: 800px) {
+  #container {
+    margin-top: 2em;
+  }
   #sidebar {
     display: none;
   }
   #content {
     margin-left: 0;
+    padding: 0;
   }
 }
 
 nav {
   display: flex;
   flex-direction: column;
+  a {
+    margin-bottom: 0.2em;
+  }
 }

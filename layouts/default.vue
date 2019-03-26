@@ -10,11 +10,10 @@
       <h4>Experience designer & developer</h4>
       <nav>
         <nuxt-link to="/">Work</nuxt-link>
-        <nuxt-link to="/guide">Guide</nuxt-link>
         <nuxt-link to="/about">About</nuxt-link>
       </nav>
 
-      <h6>mrintoul@sfu.ca</h6>
+      <h6><a href="mailto:mrintoul@sfu.ca">mrintoul@sfu.ca</a></h6>
       <h6>&copy; 2019 Macguire Rintoul</h6>
     </div>
     <div id="content">

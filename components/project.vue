@@ -21,4 +21,10 @@ export default {
   height: 20em;
   background-size: cover;
 }
+
+@media all and (max-width: 800px) {
+  .project-image {
+    height: 10em;
+  }
+}
 </style>
