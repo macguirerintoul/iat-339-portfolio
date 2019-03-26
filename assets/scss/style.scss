@@ -115,8 +115,16 @@ blockquote {
 
 #content {
   width: 100%;
+  max-width: 100em;
   margin-left: 15em;
   padding: 0 4em;
+}
+
+@media all and (max-width: 1024px) {
+  #content {
+    margin-left: 10em;
+    padding: 0 2em;
+  }
 }
 
 @media all and (max-width: 800px) {

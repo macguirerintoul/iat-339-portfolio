@@ -1186,7 +1186,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   box-shadow: none !important;
 }
 .navbar {
-  background-color: transparent;
+  background-color: #FFF;
   min-height: 3.25rem;
   position: relative;
   z-index: 30;
