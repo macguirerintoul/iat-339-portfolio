@@ -40,3 +40,5 @@ Please describe methods you currently use to organize and manage your collection
 ## Solution
 
 Winebox allows people to more easily understand and manage their wine collection, no matter how serious of a collector they are. Winebox accommodates Sunday sippers and seasoned sommeliers, and tells you everything you would like to know about your wines before you have to ask.
+
+<video src="/static/collection.mp4" title="The Collection screen of Winebox" autoplay="" loop="" muted></video>
