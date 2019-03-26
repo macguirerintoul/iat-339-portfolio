@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Privileged.tech
+title: Privileged
 date: '2019-03-26 01:37pm'
 thumbnail: /images/thumbnail-privileged-09311adc2e10b09ea3e6c0d497fc4e72.png
 ---
