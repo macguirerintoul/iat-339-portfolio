@@ -1,4 +1,5 @@
 @import 'normalize';
+
 $text: #000;
 @font-face {
   font-family: 'Masqualero';
@@ -84,6 +85,15 @@ blockquote {
   width: 100%;
   margin-left: 15em;
   padding: 0 4em;
+}
+
+@media all and (max-width: 800px) {
+  #sidebar {
+    display: none;
+  }
+  #content {
+    margin-left: 0;
+  }
 }
 
 nav {
