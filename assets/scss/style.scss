@@ -177,7 +177,7 @@ nav {
   * {
     flex-basis: 50%;
   }
-  img {
+  div:nth-of-type(2) {
     padding-left: 1em;
   }
 }
