@@ -4,12 +4,12 @@
     <code>{{selector}}</code>
 
     <h3>Sample Code</h3>
-    <code>
-      <slot name="code" />
+    <code v-text="code">
     </code>
 
     <h3>Rendered Element</h3>
-    <slot name="rendered" />
+    <div v-html="code">
+    </div>
   </div>
 </template>
 
@@ -17,9 +17,6 @@
 import project from "~/components/project.vue";
 
 export default {
-  components: {
-    project
-  },
   props: {
     selector: String,
     code: String
@@ -33,6 +30,7 @@ h3 {
 }
 
 code {
+  margin: 1em 0;
   font-family: monospace;
   background-color: black;
   padding: 1em;
@@ -40,7 +38,7 @@ code {
   border-radius: 5px;
   color: white;
   overflow-x: scroll;
-  white-space: pre;
+  white-space: pre-wrap;
 }
 
 .sg-item {

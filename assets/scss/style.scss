@@ -106,16 +106,13 @@ blockquote {
 }
 
 #container {
+  height: 100vh;
   display: flex;
-  padding: 1em;
 }
 
 #sidebar {
-  position: fixed;
-  min-width: 15em;
-  max-width: 15em;
-  padding-right: 5em;
-
+  flex: 0 0 12em;
+  padding: 1em 1em 0 1em;
   #name {
     margin-top: 0;
   }
@@ -125,19 +122,13 @@ blockquote {
 }
 
 #content {
-  width: 100%;
-  max-width: 100em;
-  margin-left: 15em;
-  padding: 0 4em;
+  flex: 1 0 auto;
+  flex-basis: 0;
+  flex-grow: 1;
+  padding: 1em 6em;
+  overflow: scroll;
   img, video {
     border: 2px solid black;
-  }
-}
-
-@media all and (max-width: 1024px) {
-  #content {
-    margin-left: 10em;
-    padding: 0 2em;
   }
 }
 
@@ -149,8 +140,7 @@ blockquote {
     display: none;
   }
   #content {
-    margin-left: 0;
-    padding: 0;
+    padding: 1em;
   }
 }
 

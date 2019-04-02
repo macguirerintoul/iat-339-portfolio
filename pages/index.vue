@@ -36,11 +36,25 @@ export default {
       max-width: 100%;
     }
   }
-  @media all and (max-width: 800px) {
+
+  @media all and (max-width: 1000px) {
     .project {
       flex-basis: 100%;
     }
   }
+
+  @media all and (max-width: 800px) {
+    .project {
+      flex-basis: 49%;
+    }
+  }
+
+  @media all and (max-width: 500px) {
+    .project {
+      flex-basis: 100%;
+    }
+  }
+
 }
 
 </style>
