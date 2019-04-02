@@ -163,6 +163,7 @@ nav {
   background: #FFF;
   &:hover {
     transform: translateY(-0.5em);
+    box-shadow: #000 10px 10px;
   }
   transition: all 0.2s;
 }
