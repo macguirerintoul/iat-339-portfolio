@@ -15,6 +15,7 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/png', sizes: '192x192', href: '/icon.png' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Spectral:300'}
     ],
   },
