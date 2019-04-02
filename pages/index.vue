@@ -25,6 +25,7 @@ export default {
 <style lang="scss">
 #projects {
   display: flex;
+  margin-top: 1em;
   flex-wrap: wrap;
   justify-content: space-between;
   .project {

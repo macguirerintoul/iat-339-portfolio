@@ -4,17 +4,17 @@
 
   <div id="container">
     <div id="sidebar">
-
       <h2 id="name">
         <nuxt-link to="/">Macguire Rintoul</nuxt-link>
       </h2>
 
       <img id="smiley" src="/images/smiley.png" alt="A smiley face.">
       <h4>Experience designer & developer</h4>
+
       <nav>
-        <nuxt-link to="/">Work</nuxt-link>
-        <nuxt-link to="/about">About</nuxt-link>
-        <nuxt-link to="/guide">Style Guide</nuxt-link>
+        <h5><nuxt-link to="/">Work</nuxt-link></h5>
+        <h5><nuxt-link to="/about">About</nuxt-link></h5>
+        <h5><nuxt-link to="/styleguide">Style Guide</nuxt-link></h5>
       </nav>
 
       <h6><a href="mailto:mrintoul@sfu.ca">mrintoul@sfu.ca</a></h6>

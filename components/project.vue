@@ -23,6 +23,11 @@ export default {
   background-size: cover;
 }
 
+h3 {
+  padding-left: 1em;
+  margin: 1em 0;
+}
+
 @media all and (max-width: 800px) {
   .project-image {
     height: 10em;

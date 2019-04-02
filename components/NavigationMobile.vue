@@ -14,6 +14,7 @@
     <div class="navbar-end">
       <nuxt-link v-on:click.native="toggleMobileMenu" class="navbar-item" to="/">Home</nuxt-link>
       <nuxt-link v-on:click.native="toggleMobileMenu" class="navbar-item" to="/about">About</nuxt-link>
+      <nuxt-link v-on:click.native="toggleMobileMenu" class="navbar-item" to="/styleguide">About</nuxt-link>
     </div>
   </div>
 </nav>
