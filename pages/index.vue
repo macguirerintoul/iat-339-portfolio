@@ -26,8 +26,10 @@ export default {
 #projects {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   .project {
-    flex-basis: 50%;
+    flex-basis: 49%;
+    border: 2px solid black;
     img {
       display: block;
       max-width: 100%;
