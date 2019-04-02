@@ -21,15 +21,19 @@ $text: #000;
 html {
   min-height: 100%;
   background-color: #FFF;
-  font-family: 'Spectral', sans-serif;
-  font-size: 1.3em;
-  color: $text;
 }
 
 body {
+  background-color: #FFF;
+  background: linear-gradient(90deg, #fff 20px, transparent 1%) center, linear-gradient(#fff 20px, transparent 1%) center, rgba(0, 0, 255, 0.2);
+  background-size: 22px 22px;
+  background-position: fixed;
   height: 100%;
   margin: 0;
   padding: 0;
+  font-family: 'Spectral', sans-serif;
+  font-size: 1.3em;
+  color: $text;
 
   p {
     letter-spacing: 0.01em;
@@ -68,7 +72,7 @@ a {
     position: relative;
     overflow: hidden;
     padding-bottom: 2px;
-    margin-bottom: -2px;
+    margin-bottom: -0.34em;
     cursor: pointer;
 
 &::before {
@@ -146,4 +150,8 @@ nav {
   a {
     margin-bottom: 0.2em;
   }
+}
+
+.project {
+  margin-bottom: 1em;
 }

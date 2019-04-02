@@ -17,6 +17,7 @@ export default {
 </script>
 
 <style>
+
 .project-image {
   height: 20em;
   background-size: cover;

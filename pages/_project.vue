@@ -16,7 +16,7 @@ export default {
 </script>
 
 <style>
-img {
+img, video {
   width: 100%;
 }
 </style>

@@ -11,6 +11,7 @@
       <nav>
         <nuxt-link to="/">Work</nuxt-link>
         <nuxt-link to="/about">About</nuxt-link>
+        <nuxt-link to="/guide">Style Guide</nuxt-link>
       </nav>
 
       <h6><a href="mailto:mrintoul@sfu.ca">mrintoul@sfu.ca</a></h6>
