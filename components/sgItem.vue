@@ -5,12 +5,11 @@
 
     <h3>Sample Code</h3>
     <code>
-  
+      <slot name="code" />
     </code>
 
     <h3>Rendered Element</h3>
-    <div v-html="code"></div>
-    <component :is="component" v-bind="options"></component>
+    <slot name="rendered" />
   </div>
 </template>
 
@@ -23,9 +22,7 @@ export default {
   },
   props: {
     selector: String,
-    code: String,
-    component: String,
-    options: Object
+    code: String
   },
 }
 </script>
@@ -43,6 +40,7 @@ code {
   border-radius: 5px;
   color: white;
   overflow-x: scroll;
+  white-space: pre;
 }
 
 .sg-item {
