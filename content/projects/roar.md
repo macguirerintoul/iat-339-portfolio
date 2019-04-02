@@ -6,6 +6,8 @@ thumbnail: /images/thumbnail-roar-7c56811c33e8f339adbc522216fe43a6.jpg
 ---
 Regional Orientation Automated Registration (ROAR) is a web app that allows Vancouver Coastal Health to more easily manage new hires and their staff orientation sessions.
 
+![A screenshot of the project.](/images/thumbnail-roar-7c56811c33e8f339adbc522216fe43a6.jpg)
+
 ## My Contribution
 
 As the only member of my team working on the project, I was responsible for user experience design, interface design, project management, and full-stack development. I regularly met with users and stakeholders to ensure the project was usable and fulfilled requirements, and balanced business needs and user experience.
