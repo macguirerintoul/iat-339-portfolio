@@ -132,6 +132,12 @@ blockquote {
   }
 }
 
+@media all and (max-width: 1200px) {
+  #content {
+    padding: 1em 3em;
+  }
+}
+
 @media all and (max-width: 800px) {
   #container {
     margin-top: 2em;
@@ -172,10 +178,25 @@ nav {
   }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 990px) {
   .showcase {
     flex-direction: column;
-    img {
+    div:nth-of-type(2) {
+      padding-left: 0;
+    }
+  }
+}
+
+@media all and (max-width: 800px) {
+  .showcase {
+    flex-direction: row;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .showcase {
+    flex-direction: column;
+    div:nth-of-type(2) {
       padding-left: 0;
     }
   }
