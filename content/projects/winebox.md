@@ -6,6 +6,8 @@ thumbnail: /images/thumbnail-winebox-4a006432cba19148e58ad90540535867.jpg
 ---
 Winebox is an iPad app that assists in keeping track of a personal wine collection.
 
+![A screenshot of the project, Winebox.](/images/thumbnail-winebox-4a006432cba19148e58ad90540535867.jpg)
+
 ## My Contribution
 
 As one of the interface designers, I was responsible for designing the collection tab of Winebox, as well as features in other tabs. As the primary researcher, I developed a survey of 18 respondents, and conducted interviews and think-aloud user tests with various wine collectors to inform and validate the project. At the end of the course, I revised the visual design of the interface.
