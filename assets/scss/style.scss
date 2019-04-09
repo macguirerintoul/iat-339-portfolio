@@ -131,6 +131,9 @@ blockquote {
   img, video {
     border: 2px solid black;
   }
+  & > :last-child {
+    margin-bottom: 2em;
+  }
 }
 
 @media all and (max-width: 1200px) {
