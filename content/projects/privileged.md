@@ -18,32 +18,18 @@ Privilege in the technology industry has been a topic of discussion for a while 
 
 The activity was designed to be completed in groups, like an in-person privilege walk. Multiple users can join thanks to the Firebase backend, and when they're ready, start the walk.
 
-The question screen of privileged.tech
-
-
+![The question screen of Privileged](/images/question.png)
 
 The questions in the walk aim to expose the privileges present in the community, and provoke participants to reflect on their roles and social responsibilities.
 
-The overview screen of privileged.tech
-
-
+![The overview screen of Privileged](/images/overview.png)
 
 When the activity is complete, participants can see how many others were afforded a certain privilege. The data is kept anonymous.
 
-The compare screen of privileged.tech
-
-
+![The compare screen of Privileged](/images/compare.png)
 
 Participants then can visualize their position relative to the others, which is the point of both the in-person and this digital activity.
 
-The compare screen of privileged.tech
-
-
-
-Participants then can visualize their position relative to the others, which is the point of both the in-person and this digital activity.
-
-The end screen of privileged.tech
-
-
+![The ending screen of Privileged](/images/end.png)
 
 To end it off, participants are given resources to help them acknowledge and address the privileges they have or to support initiatives with a similar mission.
