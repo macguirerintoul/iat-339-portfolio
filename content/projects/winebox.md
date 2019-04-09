@@ -44,3 +44,17 @@ Please describe methods you currently use to organize and manage your collection
 Winebox allows people to more easily understand and manage their wine collection, no matter how serious of a collector they are. Winebox accommodates Sunday sippers and seasoned sommeliers, and tells you everything you would like to know about your wines before you have to ask.
 
 <video src="/videos/collection.mp4" title="The Collection screen of Winebox" autoplay="" loop="" muted></video>
+
+The collection screen gives an overview of the collection at a glance, and organizes wines into smart categories.
+
+<video src="/videos/add-wine.mp4" title="Adding a wine in Winebox" autoplay="" loop="" muted></video>
+
+Wines can be added by scanning a barcode, or manually entering information.
+
+<video src="/videos/share.mp4" title="Sharing a wine in Winebox" autoplay="" loop="" muted></video>
+
+History items can be shared with friends to recommend a great bottle.
+
+<video src="/videos/confirmation.mp4" title="Deleting the last of a wine in Winebox" autoplay="" loop="" muted></video>
+
+A confirmation dialog is shown when the last wine is about to be removed
