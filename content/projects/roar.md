@@ -35,3 +35,16 @@ There was also an opportunity to improve the process for the staff that were sub
 > How might we rethink the way the registration is submitted to eliminate work for the person submitting the form?
 
 Due to the complexity of the project, CEAs and Recruitment Associates provided input every step of the way. This made sure that we were designing something that was similar enough to their existing workflow to be understandable, but also made things more efficient where possible.
+
+<video src="/videos/registration.mp4" title="The registration form in ROAR" autoplay="" loop="" muted></video>
+
+To register a new hire for training, a recruitment associate fills out the registration form.
+
+<video src="/videos/dashboard.mp4" title="The dashboard in ROAR" autoplay="" loop="" muted></video>
+
+The Dashboard displays registrations that have been submitted along with their status.
+
+<video src="/videos/schedule.mp4" title="A schedule in ROAR" autoplay="" loop="" muted></video>
+
+The employee's schedule is generated based on the registration form, and can be reviewed in-browser and sent to the employee.
+
