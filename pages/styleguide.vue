@@ -16,6 +16,8 @@
 
     <p>Smiley face from <a href="http://spontaneoussmiley.com/wp-content/uploads/2011/01/Iconic-Yellow-Smiley.png" target="_blank">http://spontaneoussmiley.com/wp-content/uploads/2011/01/Iconic-Yellow-Smiley.png</a></p>
 
+    <p>Link animation from <a href="https://emilkowalski.github.io/css-effects-snippets/" target="_blank">https://emilkowalski.github.io/css-effects-snippets/</a></p>
+
     <p>Built with <a href="https://nuxtjs.org/" target="_blank">Nuxt, a framework for Vue.</a></p>
 
   </section>
