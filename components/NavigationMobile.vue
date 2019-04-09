@@ -153,31 +153,14 @@ span {
     min-height: 3.25rem;
     width: 100%;
 }
-.navbar.has-shadow {
-    box-shadow: 0 2px 0 0 whitesmoke;
-}
 .navbar.is-fixed-bottom, .navbar.is-fixed-top {
     left: 0;
     position: fixed;
     right: 0;
     z-index: 30;
 }
-.navbar.is-fixed-bottom {
-    bottom: 0;
-}
-.navbar.is-fixed-bottom.has-shadow {
-      box-shadow: 0 -2px 0 0 whitesmoke;
-}
 .navbar.is-fixed-top {
     top: 0;
-}
-html.has-navbar-fixed-top,
-body.has-navbar-fixed-top {
-  padding-top: 3.25rem;
-}
-html.has-navbar-fixed-bottom,
-body.has-navbar-fixed-bottom {
-  padding-bottom: 3.25rem;
 }
 .navbar-brand,
 .navbar-tabs {
