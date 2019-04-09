@@ -12,6 +12,8 @@
     <h2>Other References</h2>
     <p>CSS Dot Background from <a href="https://codepen.io/edmundojr/pen/xOYJGw" target="_blank">https://codepen.io/edmundojr/pen/xOYJGw</a></p>
 
+    <p>Mobile navigation bar CSS from <a href="https://bulma.io/" target="_blank">Bulma</a>.</p>
+
     <p>Smiley face from <a href="http://spontaneoussmiley.com/wp-content/uploads/2011/01/Iconic-Yellow-Smiley.png" target="_blank">http://spontaneoussmiley.com/wp-content/uploads/2011/01/Iconic-Yellow-Smiley.png</a></p>
 
     <p>Built with <a href="https://nuxtjs.org/" target="_blank">Nuxt, a framework for Vue.</a></p>

@@ -128,6 +128,9 @@ blockquote {
   flex-grow: 1;
   padding: 1em 6em;
   overflow: scroll;
+  a {
+    color: #0000DD;
+  }
   img, video {
     border: 2px solid black;
   }
