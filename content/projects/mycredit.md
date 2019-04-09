@@ -23,3 +23,6 @@ Vancity's current website offers some credit help, but it lies 4 levels deep in 
 ## Solution
 
 MyCredit is a companion app for Vancity members to manage their credit and set goals that encourage credit building, to better support their financial well-being.
+
+<div style="padding: 56.25% 0px 0px; position: relative;"><iframe title="MyCredit Introduction Video" src="https://player.vimeo.com/video/305425815?byline=0&amp;portrait=0" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="" frameborder="0"></iframe></div>
+
