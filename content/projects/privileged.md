@@ -2,7 +2,7 @@
 layout: project
 title: Privileged
 date: '2019-03-26 01:37pm'
-thumbnail: /images/thumbnail-privileged-09311adc2e10b09ea3e6c0d497fc4e72.png
+thumbnail: /images/thumbnail-privileged-09311adc2e10b09ea3e6c0d497fc4e72.jpg
 ---
 Privileged.tech is a digital implementation of a privilege walk, aimed at reconciling privilege in the technology field. The majority of the project was completed in 24 hours as part of nwHacks 2018, with finishing touches done afterward.
 
@@ -14,22 +14,22 @@ Privilege in the technology industry has been a topic of discussion for a while 
 
 ## Solution
 
-![The landing screen of Privileged](/images/privileged-enter-af37f27315992d52f3c44987bce9c839.png "The landing screen of Privileged")
+![The landing screen of Privileged](/images/privileged-enter-af37f27315992d52f3c44987bce9c839.jpg "The landing screen of Privileged")
 
 The activity was designed to be completed in groups, like an in-person privilege walk. Multiple users can join thanks to the Firebase backend, and when they're ready, start the walk.
 
-![The question screen of Privileged](/images/question.png)
+![The question screen of Privileged](/images/question.jpg)
 
 The questions in the walk aim to expose the privileges present in the community, and provoke participants to reflect on their roles and social responsibilities.
 
-![The overview screen of Privileged](/images/overview.png)
+![The overview screen of Privileged](/images/overview.jpg)
 
 When the activity is complete, participants can see how many others were afforded a certain privilege. The data is kept anonymous.
 
-![The compare screen of Privileged](/images/compare.png)
+![The compare screen of Privileged](/images/compare.jpg)
 
 Participants then can visualize their position relative to the others, which is the point of both the in-person and this digital activity.
 
-![The ending screen of Privileged](/images/end.png)
+![The ending screen of Privileged](/images/end.jpg)
 
 To end it off, participants are given resources to help them acknowledge and address the privileges they have or to support initiatives with a similar mission.
