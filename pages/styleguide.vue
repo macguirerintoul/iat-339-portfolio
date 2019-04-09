@@ -16,6 +16,10 @@
 
     <p>Mobile navigation bar CSS from <a href="https://bulma.io/" target="_blank">Bulma</a>.</p>
 
+    <p>Masqualero font from <a href="https://fonts.adobe.com/fonts/masqualero" target="_blank">Adobe Fonts</a>.</p>
+
+    <p>Spectral font from <a href="https://fonts.google.com/specimen/Spectral" target="_blank">Google Fonts</a>.</p>
+
     <p>Smiley face from <a href="http://spontaneoussmiley.com/wp-content/uploads/2011/01/Iconic-Yellow-Smiley.png" target="_blank">http://spontaneoussmiley.com/wp-content/uploads/2011/01/Iconic-Yellow-Smiley.png</a></p>
 
     <p>Link animation from <a href="https://emilkowalski.github.io/css-effects-snippets/" target="_blank">https://emilkowalski.github.io/css-effects-snippets/</a></p>

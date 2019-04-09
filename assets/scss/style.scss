@@ -34,7 +34,7 @@ body {
   font-family: 'Spectral', sans-serif;
   font-size: 1.3em;
   color: $text;
-
+  overflow: visible;
   p {
     letter-spacing: 0.01em;
   }
@@ -127,7 +127,8 @@ blockquote {
   flex-basis: 0;
   flex-grow: 1;
   padding: 1em 6em;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
   a {
     color: #0000DD;
   }
@@ -216,6 +217,9 @@ nav {
 @media all and (max-width: 800px) {
   .showcase {
     flex-direction: row;
+    div:nth-of-type(2) {
+      padding-left: 1em;
+    }
   }
 }
 
